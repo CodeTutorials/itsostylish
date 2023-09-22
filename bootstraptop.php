@@ -25,6 +25,4 @@ echo "<link rel='canonical' href='$lin' />";
 
   gtag('config', 'UA-47477895-2');
 </script><script src='https://www.google.com/recaptcha/api.js' async defer></script></head><body onload='type();'>
- <?
  
- ?>
