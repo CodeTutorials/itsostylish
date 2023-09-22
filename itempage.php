@@ -1,4 +1,4 @@
-<?
+<?php
 include "top.php";
 $id = $_REQUEST['id'];
 
@@ -24,7 +24,7 @@ display: none;
 <div style='margin-top:2em;' class='col-12 text-center'><h1>Itsostylish Sewing Pattern for <? echo $title; ?></h1><p>Totally free patterns and sewing tutorials online. Free for commercial use see terms for restrictions.</p>
 </div>
 </div>
-<?
+<?php
 $id = $_REQUEST['id'];
 
 
@@ -103,7 +103,7 @@ echo "</div></div>";
 require "footer.php";
 ?>
 </div>
-<?
+<?php
 require "bootstrapbottom.php";
 ?>
 <script>
