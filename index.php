@@ -1,4 +1,4 @@
-<?
+<?php
 
 $title = 'Free sewing patterns with tutorials';
 $description = 'Sewing tips, tutorials and patterns for women, children, babies, pets, homeware and men';
@@ -23,7 +23,7 @@ require "header.php";
 </div>
 </div>
 <div class='row'>
-<?
+<?php
 
 $ssq = $db->query("SELECT * FROM mainblog1 ORDER BY bl_id DESC LIMIT 30");
 while($pr = $ssq->fetchArray(SQLITE3_ASSOC) ) { 
@@ -33,10 +33,10 @@ echo "<div class='col-4'><a href='itempage.php?id=$pr[bl_id]'><h4>$pr[title] </h
 ?>
 </div>
 
-<?
+<?php
 require "footer.php";
 ?>
 </div>
-<?
+<?php
 require "bootstrapbottom.php";
 ?>
